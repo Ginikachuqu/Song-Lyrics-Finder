@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Sacramento&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  height: 500px;
+  max-width: 600px;
+}
+
+.container svg {
+  position: relative;
+  top: 15%;
+  height: 100%;
+  width: 100%;
+}
+
+.container h3 {
+  color: #1f1f1f;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+a {
+  position: relative;
+  left: 35%;
+  color: rgb(247, 208, 80);
+  transition: color 0.5s ease;
+}
+
+a:hover {
+  color: #1f1f1f;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    max-width: 270px;
+  }
+}

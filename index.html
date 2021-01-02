@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Song Lyrics Finder | Welcome</title>
+    <script
+      type="module"
+      src="https://kit.fontawesome.com/4c32f15912.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="search-container">
+          <label for="artist">
+            <input
+              type="text"
+              name="artist"
+              id="artist-name"
+              placeholder="Enter artist name"
+            />
+          </label>
+          <label for="track">
+            <input
+              type="text"
+              name="track"
+              id="track-name"
+              placeholder="Enter track name"
+            />
+          </label>
+          <input type="submit" value="Search" id="search"/>
+        </div>
+      </div>
+    </div>
+    <section id="pop" class="pop-up">
+      <button>Tap to pull down!</button>
+        <h3 id="artist"></h3>
+        <p id="song-name"></p>
+        <p id="lyrics"></p>
+    </section>
+    <footer>
+        <a href="https://github.com/Ginikachuqu" target="_blank"
+              ><i class="fab fa-github"></i>My GitHub Profile</a
+            >
+    </footer>
+    <!-- <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script> -->
+    <script src="main.js"></script>
+  </body>
+</html>
